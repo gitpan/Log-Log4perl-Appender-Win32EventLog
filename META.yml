@@ -1,0 +1,15 @@
+--- #YAML:1.0
+name: Log-Log4perl-Appender-Win32EventLog
+version: 0.01
+author: Robert Rothenberg <rrwo at cpan.org>
+abstract: Log4perl log to WinNT event logs
+license: perl
+requires:
+  Log::Dispatch::Win32EventLog: 0.02
+  Log::Log4perl: 0
+  perl: 5.6.1
+build_requires:
+  Test::More: 0
+  Win32::EventLog: 0
+provides: {}
+generated_by: Module::Build version 0.25
